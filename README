@@ -1,5 +1,7 @@
 The PayPal_Standard class in PayPal_Standard.php provides a simple way of
-generating the required html form components to impliment a PayPal Standard setup
+generating the required html form components to impliment a PayPal Standard setup.
+
+This code doesn't do anything other than generate an html form!
 
 
 Minimum Example
