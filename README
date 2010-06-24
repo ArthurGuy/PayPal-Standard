@@ -1,0 +1,11 @@
+The PayPal_Standard class in PayPal_Standard.php provides a simple way of
+generating the required html form components to impliment a PayPal Standard setup
+
+
+Minimum Example
+
+include_once 'PayPal_Standard.php';
+$PayPal = new PayPal_Standard();
+$PayPal->set_paypal_email('your_paypal@email_address.com');
+$PayPal->add_row('', 'Item for Sale', 9.99);
+$PayPal->generate_form(true);
